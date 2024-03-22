@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: rgb(70, 132, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 20px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0, 1);
+}
+
+.container .left_side {
+    position: relative;
+    background: #093447;
+    padding: 40px;
+}
+
+.profilText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profilText .image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    overflow: hidden;
+
+}
+
+.profilText .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profilText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profilText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo {
+    padding-top: 40px;
+
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.diplome li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.diplome h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.diplome h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.contactInfo.diplome h4{
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.contactInfo.langue  .percent{  
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #08506e;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.langue  .percent  div{  
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.interêt ul {
+    position: relative;
+}
+
+.interêt ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.interêt ul li .icons {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.interêt ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.interêt h2{
+    margin-top: 50px;
+}
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+
+}
+.about:last-child   {
+    margin-bottom: 0;
+
+}
+.title2 {
+    color: #093447;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p {
+    color: #333;
+}
+
+.right_side .about .title2{
+    background-color: #08506e;
+    border: 1px solid #08506e;
+    padding: 5px;
+    color: white;
+}
+
+.right_side  .title2{
+    background-color: #08506e;
+    border: 1px solid #08506e;
+    padding: 5px;
+    color: white;
+}
+@media screen  and (max-width:720) {
+
+    
+}
